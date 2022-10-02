@@ -1,5 +1,6 @@
 function TodoFooter(todos, onDelete) {
     const container = document.createElement('div');
+    container.classList.add('todo-footer');
 
     const completedTodosCount = todos.filter(todo => todo.isCompleted).length;
 

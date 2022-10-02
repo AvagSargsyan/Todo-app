@@ -1,0 +1,23 @@
+$bg-color: rgb(212, 223, 240);
+$main-color: rgb(35, 126, 245);
+$main-hover-color: rgb(28, 93, 179);
+$main-font-color: #333;
+
+@mixin basic {
+    font-size: 1.1rem;
+    padding: .6rem;
+    border-radius: 6px;
+}
+
+%button {
+    @include basic();
+    color: inherit;
+    background: $main-color;
+    color: #eee;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background: $main-hover-color;
+    }
+}

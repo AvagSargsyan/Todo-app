@@ -4,27 +4,15 @@ import TodoFooter from "./TodoFooter";
 
 function App() {
 
-    let todos = [
-        {
-            label: 'Task 1',
-            isCompleted: false
-        },
-        {
-            label: 'Task 2',
-            isCompleted: false
-        },
-        {
-            label: 'Task 3',
-            isCompleted: false
-        }
-    ]
+    let todos = [];
 
     const container = document.createElement('div');
+    container.classList.add('app');
 
     function render() {
         container.innerHTML = '';
         container.appendChild(TodoInput(function (label) {
-            todos.push({
+            todos.unshift({
                 label: label,
                 isCompleted: false
             });

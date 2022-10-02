@@ -4,8 +4,8 @@ function TodoItem(todo, onChange, onDelete) {
     container.innerHTML = `
         <label>
             <input type="checkbox" ${todo.isCompleted ? 'checked' : ''}/>
-            ${todo.label}
-            <button>x</button>
+            <span>${todo.label}</span>
+            <button>&times;</button>
         </label>
     `
 

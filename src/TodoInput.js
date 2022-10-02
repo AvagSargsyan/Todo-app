@@ -1,5 +1,6 @@
 function TodoInput(add) {
     const container = document.createElement('div');
+    container.classList.add('todo-input');
 
     container.innerHTML = `
         <form>
