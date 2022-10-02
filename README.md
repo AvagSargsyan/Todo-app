@@ -2,8 +2,8 @@
 
   A simple todo app that allows you to keep track of your tasks.
   
-  [Todo app](./src/assets/Todo-app.png)
-  
+  ![Todo app](./src/assets/Todo-app.png)
+
 ## Built with
 
 - HTML
