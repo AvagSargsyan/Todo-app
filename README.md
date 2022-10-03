@@ -20,5 +20,5 @@ In order to setup and work on this project on your own, you will need to:
 - Run `npm run build` to produce distribution files
 
 ## Authors
-  This project is created by [me](https://github.com/AvagSargsyan) during [The Odin Project](https://www.theodinproject.com/) Full stack developer curriculum.
-  The design is also created by me.
+  This project is designed and created by [me](https://github.com/AvagSargsyan) during [The Odin Project](https://www.theodinproject.com/) Full stack developer curriculum.
+  
